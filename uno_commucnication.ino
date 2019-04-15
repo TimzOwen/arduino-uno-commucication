@@ -1,4 +1,3 @@
-//Master code (Arduino UNO)
 //Serial Communication Between Arduino using RS-485
 
 int enablePin = 8;  
