@@ -48,7 +48,8 @@ void setup()
 
 void loop() 
 
-{                                                  
+{       
+  //loop to get the flow
   while (Serial.available())                       {
         lcd.clear();             
         int pwmval = Serial.parseInt();            
